@@ -1,0 +1,880 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    
+   }
+html,body{
+  width: 100vw;
+  min-height:100vh ;
+  background-color: white;
+
+}
+.containar{
+    width: 100vw;
+    height: 15vh;
+    padding: 0;
+    margin: 0%;
+    background-color: black;
+}
+.containar #header{
+    width: 100vw;
+    height: 5vh;
+    background-color: rgb(236, 230, 230);
+    background-image: linear-gradient(to right,rgb(131, 41, 105),rgb(247, 83, 163));
+    display: flex;
+    padding-top: 1vh;
+    font-size: 1.15vw;
+    color: white;
+}
+.containar #header #phoneno,a,#email, #socialicon{
+    display: flex;
+    /* margin-left: 4.4vw; */
+    text-decoration: none;
+    color: white;
+}
+.containar #nav{
+    width: 100vw;
+    height: 10vh;
+    background-color:white;
+}
+.containar #header #first{
+    margin-left: 11vw;
+    font-size: 2vh;
+}
+.containar #header p{
+    margin-left: 0.6vw;
+}
+.containar #header i{
+    font-size: 1.2vw;
+}
+.containar #header #phoneno{
+    margin-left: 8vw;
+    color: white;
+}
+.containar #header a,#email, #socialicon{
+    margin-left: 1vw;
+}
+.containar #header #email{
+    margin-left: 3.5vw;
+}
+.containar #nav{
+    padding-top: 0.5vh;
+    display: flex;
+}
+.containar #nav #left img{
+    height: 9.5vh;
+    width: 16vh;
+    margin-left: 11vw;
+}
+.containar #nav #right{
+    display: flex;
+}
+.containar #nav #right a{
+    color: black;
+    margin-top: 3.5vh;
+    margin-bottom: 2.5vh;
+    margin-left: 3vh;
+}
+.containar #nav #right a:nth-child(1){
+    color: black;
+    padding-top: 0vh;
+    margin-left: 13.5vh;
+}
+.containar #nav #right a:hover{
+    color: rgb(138, 35, 109);
+    border-top: solid rgb(138, 35, 109) 0.1vw;
+    border-bottom: solid rgb(138, 35, 109) 0.1vw;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+#carouselExample{
+    width: 99vw;
+}
+.carousel-control-prev{
+    background-color: rgb(8, 8, 8);
+    height: 5vw;
+    width: 3.5vw;
+    font-weight: bold;
+    margin-top: 16vw;
+}
+.carousel-control-prev-icon{
+    font-weight: 800;
+}
+.carousel-control-next{
+    background-color: rgb(8, 8, 8);
+    height: 5vw;
+    width: 3.5vw;
+    font-weight: bold;
+    margin-top: 16vw;
+}
+#nifaup{
+    display: flex;
+}
+#nifaup #heading h4{
+    font-size: 1.3vw;
+    font-weight: 800;
+    margin-left: 8vw;
+    padding-top: 1vw;
+}
+#nifaup #marqueeq{
+    width: 60vw;
+    margin-left: 6vw;
+    color: rgb(131, 41, 105);
+    padding-top: 1vw;
+}
+#intro{
+    width: 75vw;
+    text-align: center;
+    margin-left: 10vw;
+    margin-top: 4vw;
+}
+#intro h1{
+    font-size: 2.5vw;
+    font-weight: 800;
+    padding: 1vw;
+}
+#intro p{
+    font-size: 1.15vw;
+    
+}
+#intro h5{
+    font-size: 1.15vw;
+    font-weight: 600;
+}
+#intro button{
+    padding: 0.6vw 1.5vw;
+    border-radius: 2vw;
+    margin-top: 1vw;
+    font-size: 1.1vw;
+    letter-spacing: 0.06vw;
+    background-image: linear-gradient(to right,rgb(169, 29, 118),rgb(84, 16, 185));
+    color: white;
+    border: none;
+}
+#onlineclass{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: linear-gradient(100deg, rgba(0, 0, 0, 1), rgba(35, 31, 32, 0.6)), url(../images/appbg.jpg) no-repeat center;
+    margin-top: 2vw;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.249);
+    padding: 6vw 10vw;
+}
+#onlineclass #left{
+    height: 100vh;
+    width: 50vw;
+    color: white;
+    margin-right: 10vw;
+}
+#onlineclass #right{
+    height: 100vh;
+    width: 50vw;
+}
+#onlineclass #left h2{
+    font-size: 2.2vw;
+}
+#onlineclass #left p{
+    font-size: 1.1vw;
+    padding-top: 0.5vw;
+    line-height: 1.5vw;
+    margin-left: 0vw;
+}
+#onlineclass #left #b1{
+    padding: 0.5vw 1.3vw;
+    border-radius: 2vw;
+    margin-top: 1vw;
+    font-size: 1.1vw;
+    letter-spacing: 0.06vw;
+    color: white;
+background-image: linear-gradient(to right,rgb(169, 29, 118),rgb(84, 16, 185));
+border: white solid 0.1vw;
+}
+#onlineclass #left h4{
+    font-size: 1.3vw;
+    margin-top: 2vw;
+}
+#onlineclass #left #appb{
+    display: flex;
+    margin-top: 1vw;
+}
+#onlineclass #left #appb img{
+    height: 3vw;
+    width: 9.5vw;
+    margin-right: 1vw;
+}
+#onlineclass #right iframe{
+    height: 28vw;
+    width: 43vw;
+    border: solid white 1.6vw;
+    margin-top: 5vw;
+}
+#ourcourses{
+    background-image: url(./images/artboard2.png);
+    
+}
+
+#ourcourses h1{
+    margin-top: 2vw;
+    font-size: 1.8vw;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#cards, #cards2, #cards3{
+    z-index: 999999999;
+    
+     display:flex;
+    align-items: center;
+    justify-content: center; 
+}
+#card, #card2, #card3{
+   position: relative;
+    width: 17vw;
+    height: 23vw;
+    border: solid 2px rgb(230, 216, 216);
+    margin: 1vw;
+    margin-top: 3vw;
+    padding: 0px;
+   background-color: white;
+}
+#ourcourses #card:hover{
+    cursor: pointer;
+     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s; 
+    box-shadow: 0 30px 50px -20px rgba(46, 6, 66, 0.764);
+}
+#ourcourses #card2:hover{
+    cursor: pointer;
+     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s; 
+    box-shadow: 0 30px 50px -20px rgba(46, 6, 66, 0.764);
+}
+#ourcourses #card3:hover{
+    cursor: pointer;
+     transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s; 
+    box-shadow: 0 30px 50px -20px rgba(46, 6, 66, 0.764);
+}
+#card img, #card1 img, #card2 img{
+    width: 16.8vw;
+    height: 11vw;
+}
+#card h3, #card1 h3, #card2 h3{
+    font-size: 1.2vw;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1vw;
+    line-height: 1.5vw;
+}
+#card button, #card2 button, #card3 button{
+    display: flex;
+    font-size: 1vw;
+    justify-content: center;
+    text-align: center;
+    padding: 0.8vw 1vw;
+    color: white;
+background-image: linear-gradient(to right,rgb(169, 29, 118),rgb(84, 16, 185));
+border: none;
+margin-top: 0.6vw;
+margin-left: 5vw;
+border-radius: 2vw;
+}
+#student h1{
+    margin-top: 5vw;
+    font-size: 2vw;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#student #row1, #row2, #row3, #row4, #row5, #row6, #row7, #row8{
+    display: flex;
+
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+}
+#student #row1 img{
+    border-radius: 1vw;
+    width: 18vw;
+    height: 20vw;
+    margin: 0.5vw;
+    margin-top: 4vw;
+}
+#row2 img{
+    height: 20vw;
+    width: 74vw;
+    border-radius: 1vw;
+
+}
+#row3 img,#row4 img,#row5 img,#row6 img,#row7 img, #row8 img{
+    height: 20vw;
+    margin: 0.5vw;
+    border-radius: 1vw;
+}
+#row3 img:nth-child(1){
+    width: 42vw;
+}
+#row3 img:nth-child(2){
+    width: 30vw;
+}
+#row8 img{
+    width: 72vw;
+}
+
+ #student-container {
+    margin-top: 5vw;
+    width: 100%;
+    height: 45vw;
+    
+    background: url(../images/student-talk.jpg) no-repeat center;
+    background-size: cover;
+    padding: 7vw;
+    background-attachment: fixed;
+}
+.row{
+    display: flex;
+}
+
+.container h2{
+    margin-top: -3vw;
+    margin-bottom: 3vw;
+    font-size: 2vw;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.testimonial-content{
+    border: white solid 0.8vw;
+    margin-bottom: 1.3vw;
+    height: 15vw;
+    margin-left: 4vw;
+  
+}
+.testimonial-content iframe{
+    height: 13.5vw;
+    width: 100%;
+   
+} 
+
+#footer {
+    height: 35vw;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    color: #000;
+    background: url(../images/fotbg2.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0vw;
+    margin-right: 5vw;
+}
+#col2{
+    margin-left:7vw ;
+}
+#col3{
+    margin-left:7vw ;
+    margin-top: -2vw;
+}
+#col4{
+    margin-top: 1vw;
+    margin-left:6vw ;
+}
+#col ul li{
+list-style: none;
+font-size: 1vw;
+margin-right: 2vw;
+}
+#col h5{
+    font-weight: 700;
+    font-size: 1.4vw;
+}
+#contactus{
+    display: flex;
+    margin-top: 2vw;
+
+}
+#contactus #lefty{
+    /* height: 100vh; */
+    width: 50vw;
+    margin-right: 0vw;
+    line-height: 3vw;
+    
+}
+#contactus #righty{
+    /* height: 100vh; */
+    width: 50vw;
+    margin-left: 30vw;
+}
+#righty h4{
+    font-size: 1.3vw;
+    margin-top: 3vw;
+}
+#righty #appb{
+    display: flex;
+    margin-top: 1vw;
+}
+#righty #appb img{
+    height: 3vw;
+    width: 9.5vw;
+    margin-right: 1vw;
+}
+#lefty h5{
+    font-size: 1.4vw;
+    font-weight: 700;
+    margin-left: 7vw;
+    line-height: 2vw;
+}
+#lefty h4, p{
+    margin-left: 7vw;
+    font-size: 1.2vw;
+}
+#righty p{
+  padding-left: -5vw;
+  font-size: 1vw;
+}
+::-webkit-scrollbar {
+    display: none;
+    }
+    .containar #nav #right #email{
+        display: none;
+    }
+    .containar #nav #right #phone{
+        display: none;
+    }
+    .btn-group{
+        display: none;
+    }
+    @media(max-width: 500px){
+        .containar{
+            width: 100vw;
+            height: 36vh;
+            padding: 0;
+            margin: 0%;
+            background-color: white;
+        }
+        .containar #header{
+            width: 100vw;
+            height: 13vh;
+            background-color: rgb(236, 230, 230);
+            background-image: linear-gradient(to right,rgb(131, 41, 105),rgb(247, 83, 163));
+            display: inline-block;
+            padding-top: 1vh;
+            font-size: 1.15vw;
+            color: white;
+            margin-top: 0;
+        }
+        .containar #nav{
+            width: 100vw;
+            height: 23vh;
+            background-color:white;
+        }
+        .containar #header #first{
+            
+            font-size: 2.5vh;
+            margin: 0vw;
+            margin-left: 10vw;
+        }
+        .containar #header p{
+            margin-left: 0.6vw;
+            font-size: 2.5vh;
+        }
+        .containar #header i{
+            margin-top: 2vw;
+            font-size: 2.5vh;
+        }
+        .containar #header #phoneno{
+    
+            margin-left: 23vw;
+            color: white;
+        }
+        .containar #header a,#email, #socialicon{
+            margin-left: 5vw;
+        }
+        .containar #header #email{
+            margin-left: 10vw;
+            margin-top: -6vw;
+        }
+        #socialicon{
+            margin-left: 70vw;
+            margin-top: -11vw;
+        }
+        .containar #nav #left img{
+            height: 9.5vh;
+            width: 16vh;
+            margin-left: 35vw;
+        }
+        .containar #nav #right a{
+            display: none;
+        }
+        .containar #nav #right #email{
+            height: 5vh;
+            display: inline;
+            color: black;  
+            /* background-color: red; */
+            margin-top: 10vh;
+            margin-left: -35vw;
+        }
+        .containar #nav #right #email p{
+            font-size: 2.5vh;
+            margin-top: -5.5vh;
+        }
+        .containar #nav #right #email i{
+            font-size: 2.5vh;
+            color: rgb(70, 70, 165);
+        }
+        .containar #nav #right #phone{
+            height: 5vh;
+            width: 50vw;
+            display: inline;
+            color: black;  
+            /* background-color: red; */
+            margin-top: 14vh;
+            margin-left: -55vw;
+        }
+        .containar #nav #right #phone p{
+            font-size: 2vh;
+            margin-top: -5.5vh;
+        }
+        .containar #nav #right #phone i{
+            font-size: 2.5vh;
+            color: rgb(70, 70, 165);
+        }
+        .btn-group{
+            display: inline;
+        }
+        .btn{
+            background-color: rgb(24, 31, 126);
+            width: 70vw;
+            height: 3vh;
+            font-size: 2vh;
+            margin-top: 18vh;
+            padding: 0%;
+            margin-left: -60vw;
+            border-radius: none;
+        }
+        #nifaup #heading h4{
+            font-size: 3vw;
+            font-weight: 800;
+            margin-left: 8vw;
+            padding-top: 1vw;
+        }
+        #nifaup #marqueeq{
+            width: 70vw;
+            margin-left: 0vw;
+            color: rgb(131, 41, 105);
+            margin-top: 3.5vw;
+        }
+        #intro{
+            width: 95vw;
+            text-align: center;
+            margin-left: 0vw;
+            margin-top: 4vw;
+        }
+        #intro h1{
+            font-size: 3.5vw;
+            font-weight: 800;
+            padding: 2vw;
+        }
+        #intro p{
+            font-size: 3.15vw;
+            line-height: 4vw;
+            
+        }
+        #intro h5{
+            font-size: 3vw;
+            font-weight: 600;
+        }
+        #intro button{
+            padding: 1.5vw 3vw;
+            border-radius: 3vw;
+            margin-top: 3vw;
+            font-size: 3vw;
+            letter-spacing: 0.06vw;
+            background-image: linear-gradient(to right,rgb(169, 29, 118),rgb(84, 16, 185));
+            color: white;
+            border: none;
+        }
+        #onlineclass{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            background: linear-gradient(100deg, rgba(0, 0, 0, 1), rgba(35, 31, 32, 0.6)), url(../images/appbg.jpg) no-repeat center;
+            margin-top: 6vw;
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: rgba(0, 0, 0, 0.249);
+            padding: 6vw 10vw;
+        }
+        #onlineclass #left{
+            height: 100vh;
+            width: 100vw;
+            color: white;
+            margin-right: 10vw;
+        }
+        #onlineclass #right{
+            height: 100vh;
+            width: 20vw;
+            display: none;
+        }
+        #onlineclass #left h2{
+            font-size: 7vw;
+        }
+        #onlineclass #left p{
+            font-size: 3vw;
+            padding-top: 0.5vw;
+            line-height: 5vw;
+            margin-left: 0vw;
+        }
+        #onlineclass #left #b1{
+            padding: 2vw 3.3vw;
+            border-radius: 3.5vw;
+            margin-top: 5vw;
+            font-size: 2.5vw;
+            letter-spacing: 0.06vw;
+            color: white;
+        background-image: linear-gradient(to right,rgb(169, 29, 118),rgb(84, 16, 185));
+        border: white solid 0.1vw;
+        }
+        #onlineclass #left h4{
+            font-size: 3.8vw;
+            margin-top: 7vw;
+        }
+        #onlineclass #left #appb{
+            display: flex;
+            margin-top: 4vw;
+        }
+        #onlineclass #left #appb img{
+            height: 10vw;
+            width: 30vw;
+            margin-right: 1vw;
+        }
+        #onlineclass #right iframe{
+            height: 28vw;
+            width: 43vw;
+            border: solid white 1.6vw;
+            margin-top: 5vw;
+        }
+        #ourcourses{
+            background-image: url(./images/artboard2.png);
+            
+        }
+        
+        #ourcourses h1{
+            margin-top: 5vw;
+            font-size: 6vw;
+            font-weight: bold;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #cards, #cards2, #cards3{
+            z-index: 999999999;
+            
+             display:inline;
+            align-items: center;
+            justify-content: center; 
+        }
+        #card, #card2, #card3{
+           position: relative;
+            width: 80vw;
+            height: 80vw;
+            border: solid 2px rgb(230, 216, 216);
+            margin: 7vw;
+            margin-top: 3vw;
+            padding: 0px;
+           background-color: white;
+        }
+        #ourcourses #card:hover{
+            cursor: pointer;
+             transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s; 
+            box-shadow: 0 30px 50px -20px rgba(46, 6, 66, 0.764);
+        }
+        #ourcourses #card2:hover{
+            cursor: pointer;
+             transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s; 
+            box-shadow: 0 30px 50px -20px rgba(46, 6, 66, 0.764);
+        }
+        #ourcourses #card3:hover{
+            cursor: pointer;
+             transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s; 
+            box-shadow: 0 30px 50px -20px rgba(46, 6, 66, 0.764);
+        }
+        #card img, #card1 img, #card2 img{
+            width: 80vw;
+            height: 50vw;
+        }
+        #card h3, #card1 h3, #card2 h3{
+            font-size: 3.6vw;
+            font-weight: 500;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding: 3vw;
+            line-height: 4vw;
+        }
+        #card button, #card2 button, #card3 button{
+            display: flex;
+            font-size: 3vw;
+            justify-content: center;
+            text-align: center;
+            padding: 3vw 4vw;
+            color: white;
+        background-image: linear-gradient(to right,rgb(169, 29, 118),rgb(84, 16, 185));
+        border: none;
+        margin-top: 0.6vw;
+        margin-left: 25vw;
+        border-radius: 5vw;
+        }
+          
+        #student h1{
+            margin-top: 5vw;
+            font-size: 6vw;
+            font-weight: bold;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+       
+        #student #row1 img{
+            border-radius: 1vw;
+            width: 18vw;
+            height: 20vw;
+            margin: 0.5vw;
+            margin-top: 4vw;
+        }
+        #student img:hover{
+            cursor: pointer;
+          
+        }
+        #row2 img{
+            height: 20vw;
+            width: 74vw;
+            border-radius: 1vw;
+        
+        }
+        #row3 img,#row4 img,#row5 img,#row6 img,#row7 img, #row8 img{
+            height: 20vw;
+            margin: 0.5vw;
+            border-radius: 1vw;
+        }
+        #row3 img:nth-child(1){
+            width: 42vw;
+        }
+        #row3 img:nth-child(2){
+            width: 30vw;
+        }
+        #row8 img{
+            width: 72vw;
+        }
+        
+         #student-container {
+            display: none;
+            
+         }
+        
+        #footer {
+            height: 130vh;
+            margin-top: 5vw;
+            padding-top: 4rem;
+            padding-bottom: 2rem;
+            color: #000;
+            background: url(../images/fotbg2.jpeg) no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        #col{
+          
+            align-items: center;
+            justify-content: center;
+            padding: 0vw;
+            margin-left: 0vw;
+            position: relative;
+        }
+        #col2{
+           
+            margin-left:10vw ;
+        }
+        #col1{
+            margin-left:7vw ;
+        }
+        #col3{
+            margin-left:-25vw ;
+          position: absolute;
+          bottom: -45vw;
+        }
+        #col4{
+            margin-top: 1vw;
+            margin-left: 55vw;
+            position: absolute;
+          bottom: -52vw;
+        }
+        #col ul li{
+        list-style: none;
+        font-size: 3vw;
+        line-height: 5vw;
+        }
+        #col h5{
+            font-weight: 700;
+            font-size: 3vw;
+        }
+        #contactus{
+            display: flex;
+            margin-top: 80vw;
+        
+        }
+        #contactus #lefty{
+            /* height: 100vh; */
+            width: 50vw;
+            margin-right: 0vw;
+            line-height: 3vw;
+            
+        }
+        #contactus #righty{
+            /* height: 100vh; */
+            width: 50vw;
+            margin-left: 20vw;
+        }
+        #righty h4{
+            font-size: 4vw;
+            margin-top: 3vw;
+        }
+        #righty #appb{
+            display: flex;
+            margin-top: 2vw;
+        }
+        #righty #appb img{
+            height: 6vw;
+            width: 15vw;
+            margin-right: 1vw;
+        }
+        #lefty h5{
+            font-size: 4vw;
+            font-weight: 700;
+            margin-left: 7vw;
+            line-height: 4vw;
+        }
+        #lefty h4, p{
+            margin-left: 7vw;
+            font-size: 3vw;
+            padding-top: 2vw;
+            font-weight: 500;
+        }
+        #righty p{
+          padding-left: -5vw;
+          font-size: 2vw;
+        }
+        ::-webkit-scrollbar {
+            display: none;
+            }
+           
+    }
